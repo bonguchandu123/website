@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exact Figma UI</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+            overflow-x: hidden;
+            overflow-y: auto;
+        }
+        .app-container {
+            position: relative;
+            width: 430px;
+            height: 950px;
+            background-color: #ffffff;
+            overflow: hidden;
+            box-shadow: 0 0 50px rgba(0,0,0,0.2);
+            transform-origin: top center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .abs {
+            position: absolute;
+            font-family: 'Poppins', sans-serif;
+            white-space: nowrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="app-container" id="app">
+        <img src="assets/99_567.png" class="abs" style="left: 0; top: 0; width: 100%; height: 100%; object-fit: cover; z-index: 1; pointer-events: none;" />
+        <img src="assets/99_569.png" class="abs" style="left: 19px; top: 361px; width: 388px; height: 673px; z-index: 1; pointer-events: none;" />
+        <img src="assets/99_474.png" class="abs bubble-element" style="left: 290px; top: 573px; width: 90px; height: 90px; z-index: 10; cursor: pointer; transition: transform 0.2s;" onclick="shoot(this, 335, 618)" />
+        <img src="assets/99_438.png" class="abs bubble-element" style="left: 155px; top: 261px; width: 130px; height: 130px; z-index: 10; cursor: pointer; transition: transform 0.2s;" onclick="shoot(this, 220, 326)" />
+        <img src="assets/99_488.png" class="abs bubble-element" style="left: 310px; top: 727px; width: 90px; height: 90px; z-index: 10; cursor: pointer; transition: transform 0.2s;" onclick="shoot(this, 355, 772)" />
+        <img src="assets/99_446.png" class="abs bubble-element" style="left: 10px; top: 461px; width: 100px; height: 100px; z-index: 10; cursor: pointer; transition: transform 0.2s;" onclick="shoot(this, 60, 511)" />
+        <img src="assets/99_439.png" class="abs bubble-element" style="left: 294px; top: 339px; width: 109px; height: 112px; z-index: 10; cursor: pointer; transition: transform 0.2s;" onclick="shoot(this, 348.5, 395)" />
+        <img src="assets/99_467.png" class="abs bubble-element" style="left: 234px; top: 661px; width: 80px; height: 80px; z-index: 10; cursor: pointer; transition: transform 0.2s;" onclick="shoot(this, 274, 701)" />
+        <img src="assets/99_460.png" class="abs bubble-element" style="left: 81px; top: 577px; width: 90px; height: 90px; z-index: 10; cursor: pointer; transition: transform 0.2s;" onclick="shoot(this, 126, 622)" />
+        <img src="assets/99_453.png" class="abs bubble-element" style="left: 46px; top: 338px; width: 109px; height: 112px; z-index: 10; cursor: pointer; transition: transform 0.2s;" onclick="shoot(this, 100.5, 394)" />
+        <img src="assets/99_481.png" class="abs bubble-element" style="left: 340px; top: 461px; width: 100px; height: 100px; z-index: 10; cursor: pointer; transition: transform 0.2s;" onclick="shoot(this, 390, 511)" />
+        <img src="assets/98_437.png" class="abs" style="left: -16px; top: 61px; width: 487px; height: 238px; z-index: 20; pointer-events: none;" />
+        <img src="assets/100_236.png" class="abs" style="left: 170px; top: 180px; width: 24px; height: 24px; z-index: 20; pointer-events: none;" />
+        <img src="assets/100_240.png" class="abs" style="left: 232px; top: 180px; width: 24px; height: 24px; z-index: 20; pointer-events: none;" />
+        <img src="assets/100_248.png" class="abs" style="left: 297px; top: 311px; width: 103px; height: 154px; z-index: 20; pointer-events: none;" />
+        <img src="assets/103_242.png" class="abs" style="left: 318px; top: 406px; width: 59px; height: 33px; z-index: 20; pointer-events: none;" />
+        <img src="assets/100_256.png" class="abs" style="left: 324px; top: 719px; width: 70px; height: 105px; z-index: 20; pointer-events: none;" />
+        <img src="assets/100_272.png" class="abs" style="left: 14px; top: 443px; width: 97px; height: 146px; z-index: 20; pointer-events: none;" />
+        <img src="assets/100_263.png" class="abs" style="left: 463px; top: 1578px; width: 83px; height: 125px; z-index: 20; pointer-events: none;" />
+        <img src="assets/100_259.png" class="abs" style="left: 239px; top: 639px; width: 70px; height: 105px; z-index: 20; pointer-events: none;" />
+        <img src="assets/103_250.png" class="abs" style="left: 244px; top: 712px; width: 59px; height: 18px; z-index: 20; pointer-events: none;" />
+        <img src="assets/103_252.png" class="abs" style="left: 327px; top: 783px; width: 59px; height: 33px; z-index: 20; pointer-events: none;" />
+        <img src="assets/100_253.png" class="abs" style="left: 287px; top: 551px; width: 95px; height: 142px; z-index: 20; pointer-events: none;" />
+        <img src="assets/100_269.png" class="abs" style="left: 78px; top: 553px; width: 94px; height: 141px; z-index: 20; pointer-events: none;" />
+        <img src="assets/103_254.png" class="abs" style="left: 305px; top: 633px; width: 59px; height: 16px; z-index: 20; pointer-events: none;" />
+        <img src="assets/103_248.png" class="abs" style="left: 95px; top: 632px; width: 59px; height: 33px; z-index: 20; pointer-events: none;" />
+        <img src="assets/100_275.png" class="abs" style="left: 50px; top: 324px; width: 96px; height: 144px; z-index: 20; pointer-events: none;" />
+        <img src="assets/100_250.png" class="abs" style="left: 345px; top: 447px; width: 87px; height: 130px; z-index: 20; pointer-events: none;" />
+        <img src="assets/103_244.png" class="abs" style="left: 360px; top: 521px; width: 59px; height: 33px; z-index: 20; pointer-events: none;" />
+        <img src="assets/100_231.png" class="abs" style="left: 178px; top: 259px; width: 86px; height: 129px; z-index: 20; pointer-events: none;" />
+        <img src="assets/103_241.png" class="abs" style="left: 190px; top: 342px; width: 59px; height: 33px; z-index: 20; pointer-events: none;" />
+        <img src="assets/103_246.png" class="abs" style="left: 30px; top: 531px; width: 59px; height: 33px; z-index: 20; pointer-events: none;" />
+        <!-- Grouped Aim Vectors -->
+        <div id="aim-group" class="abs" style="left: 203px; top: 389px; width: 36px; height: 360px; z-index: 50; transform-origin: center bottom;">
+            <img src="assets/99_571.png" class="abs" style="left: 13px; top: 30px; width: 7.1350555419921875px; height: 330px; pointer-events: none;" />
+            <img src="assets/99_572.png" class="abs" style="left: 0px; top: 142px; width: 36px; height: 36px; pointer-events: none;" />
+            <img src="assets/99_573.png" class="abs" style="left: 12px; top: 154px; width: 12px; height: 12px; pointer-events: none;" />
+            <img src="assets/99_574.png" class="abs" style="left: 3px; top: 0px; width: 30px; height: 30px; pointer-events: none;" />
+        </div>
+        <svg id="drawing-layer" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 40; pointer-events: none;"></svg>
+        <div id="projectile" class="abs" style="width: 20px; height: 20px; border-radius: 50%; background: #d8b4fe; box-shadow: 0 0 15px #c084fc; z-index: 51; display: none; transform-origin: center center; transform: translate(-50%, -50%);"></div>
+        <div class="abs" style="left: 25px; top: 39px; font-size: 24px; color: #000000; font-weight: 700; text-align: left; z-index: 30; pointer-events: none;">Learn</div>
+        <div class="abs" style="left: 166px; top: 93px; font-size: 20px; color: #000000; font-weight: 400; text-align: left; z-index: 30; pointer-events: none;">Let’s Begin!</div>
+        <div class="abs" style="left: 125px; top: 122px; font-size: 20px; color: #000000; font-weight: 600; text-align: left; z-index: 30; pointer-events: none;">Shoot the bubble of </div>
+        <div class="abs" style="left: 84px; top: 146px; font-size: 20px; color: #000000; font-weight: 600; text-align: left; z-index: 30; pointer-events: none;">the</div>
+        <div class="abs" style="left: 126px; top: 146px; font-size: 20px; color: #000000; font-weight: 600; text-align: left; z-index: 30; pointer-events: none;">branch</div>
+        <div class="abs" style="left: 204px; top: 146px; font-size: 20px; color: #000000; font-weight: 600; text-align: left; z-index: 30; pointer-events: none;">you want to learn</div>
+        <div class="abs" style="left: 134px; top: 180px; font-size: 20px; color: #000000; font-weight: 600; text-align: left; z-index: 30; pointer-events: none;">Tap</div>
+        <div class="abs" style="left: 194px; top: 180px; font-size: 20px; color: #000000; font-weight: 600; text-align: left; z-index: 30; pointer-events: none;">Aim</div>
+        <div class="abs" style="left: 256px; top: 180px; font-size: 20px; color: #000000; font-weight: 600; text-align: left; z-index: 30; pointer-events: none;">Shoot</div>
+
+    </div>
+    
+    <script>
+        function resize() {
+            const app = document.getElementById('app');
+            const scale = Math.min(window.innerWidth / 450, 1);
+            if (scale < 1) {
+                app.style.transform = `scale(${scale})`;
+            } else {
+                app.style.transform = 'none';
+            }
+        }
+        window.addEventListener('resize', resize);
+        resize();
+        
+        // Prevent spam clicking
+        let isShooting = false;
+        
+        function shoot(element, targetX, targetY) {
+            if (isShooting) return;
+            isShooting = true;
+            
+            const proj = document.getElementById('projectile');
+            const origGroup = document.getElementById('aim-group');
+            const svgLayer = document.getElementById('drawing-layer');
+            
+            // Pivot is at the bottom center of the aiming group
+            const startX = parseInt(origGroup.style.left) + origGroup.offsetWidth / 2;
+            const startY = parseInt(origGroup.style.top) + origGroup.offsetHeight;
+            
+            const dx = targetX - startX;
+            const dy = targetY - startY;
+            const distance = Math.sqrt(dx * dx + dy * dy);
+            
+            // 1. SVG DRAWING PHASE (Aim)
+            // Hide the static aiming group
+            origGroup.style.opacity = '0';
+            
+            const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+            line.setAttribute('x1', startX);
+            line.setAttribute('y1', startY);
+            line.setAttribute('x2', targetX);
+            line.setAttribute('y2', targetY);
+            line.setAttribute('stroke', 'rgba(255, 255, 255, 0.8)');
+            line.setAttribute('stroke-width', '4');
+            line.setAttribute('stroke-dasharray', '8,8');
+            line.setAttribute('stroke-linecap', 'round');
+            
+            // Animate line drawing
+            line.style.strokeDasharray = distance + ' ' + distance;
+            line.style.strokeDashoffset = distance;
+            svgLayer.appendChild(line);
+            
+            const drawAnim = line.animate([
+                { strokeDashoffset: distance },
+                { strokeDashoffset: 0 }
+            ], {
+                duration: 350,
+                easing: 'ease-out',
+                fill: 'forwards'
+            });
+            
+            // 2. SHOOT PHASE
+            drawAnim.onfinish = () => {
+                proj.style.display = 'block';
+                proj.style.left = startX + 'px';
+                proj.style.top = startY + 'px';
+                
+                // Animate ball projectile
+                const anim = proj.animate([
+                    { transform: `translate(-50%, -50%) scale(1)` },
+                    { transform: `translate(calc(${dx}px - 50%), calc(${dy}px - 50%)) scale(0.5)` }
+                ], {
+                    duration: 250, // Bullet speed
+                    easing: 'ease-in'
+                });
+                
+                anim.onfinish = () => {
+                    proj.style.display = 'none';
+                    svgLayer.innerHTML = ''; // Clear SVG lines
+                    
+                    // Restore original group
+                    origGroup.style.opacity = '1';
+                    
+                    // Pop animation for bubble
+                    element.animate([
+                        { filter: 'brightness(1)', transform: 'scale(1)' },
+                        { filter: 'brightness(1.5)', transform: 'scale(1.2)' },
+                        { filter: 'brightness(1)', transform: 'scale(1)' }
+                    ], { duration: 300 });
+                    
+                    setTimeout(() => { isShooting = false; }, 300);
+                };
+            };
+        }
+    </script>
+</body>
+</html>
