@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>StudySphere - Get Started</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Inter', sans-serif;
+  }
+  #app-container {
+    width: 440px;
+    height: 956px;
+    position: relative;
+    /* Exact gradient from Figma */
+    background: linear-gradient(
+      180deg,
+      rgba(231,218,252,1) 0%,
+      rgba(229,220,251,1) 35%,
+      rgba(236,231,255,1) 70%,
+      rgba(233,227,253,1) 100%
+    );
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+  }
+  .abs { position: absolute; white-space: nowrap; }
+  .text-center { text-align: center; white-space: normal; }
+</style>
+</head>
+<body>
+<div id="app-container">
+
+  <!-- ── Status bar time ── -->
+  <div class="abs" style="left: 10px; top: 14px; font-size: 15px; font-weight: 600; color: #000000; z-index: 20;">9:41</div>
+
+  <!-- ── Upper decorator (top-left purple blobs) ── -->
+  <img src="assets/index3/167_751.png" class="abs" style="left: -48px; top: -32px; width: 139px; height: 140px; z-index: 2; pointer-events: none;" />
+  <img src="assets/index3/167_752.png" class="abs" style="left: -48px; top: -32px; width: 115px; height: 140px; z-index: 3; pointer-events: none;" />
+
+  <!-- ── Top-left dot grid (x:26, y:140, w:44, h:60) ── -->
+  <div class="abs" style="left: 29px; top: 144px; width: 3px; height: 4px; background: rgb(94,59,251); z-index: 10;"></div>
+  <div class="abs" style="left: 44px; top: 144px; width: 3px; height: 4px; background: rgb(94,59,251); z-index: 10;"></div>
+  <div class="abs" style="left: 58px; top: 144px; width: 3px; height: 4px; background: rgb(94,59,251); z-index: 10;"></div>
+  <div class="abs" style="left: 29px; top: 164px; width: 3px; height: 4px; background: rgb(94,59,251); z-index: 10;"></div>
+  <div class="abs" style="left: 44px; top: 164px; width: 3px; height: 4px; background: rgb(94,59,251); z-index: 10;"></div>
+  <div class="abs" style="left: 58px; top: 164px; width: 3px; height: 4px; background: rgb(94,59,251); z-index: 10;"></div>
+  <div class="abs" style="left: 29px; top: 184px; width: 3px; height: 4px; background: rgb(94,59,251); z-index: 10;"></div>
+  <div class="abs" style="left: 44px; top: 184px; width: 3px; height: 4px; background: rgb(94,59,251); z-index: 10;"></div>
+  <div class="abs" style="left: 58px; top: 184px; width: 3px; height: 4px; background: rgb(94,59,251); z-index: 10;"></div>
+
+  <!-- ── Top-right dot grid (x:363, y:27, w:44, h:60) ── -->
+  <div class="abs" style="left: 366px; top: 31px; width: 3px; height: 4px; background: rgb(126,98,255); z-index: 10;"></div>
+  <div class="abs" style="left: 381px; top: 31px; width: 3px; height: 4px; background: rgb(126,98,255); z-index: 10;"></div>
+  <div class="abs" style="left: 395px; top: 31px; width: 3px; height: 4px; background: rgb(126,98,255); z-index: 10;"></div>
+  <div class="abs" style="left: 366px; top: 51px; width: 3px; height: 4px; background: rgb(126,98,255); z-index: 10;"></div>
+  <div class="abs" style="left: 381px; top: 51px; width: 3px; height: 4px; background: rgb(126,98,255); z-index: 10;"></div>
+  <div class="abs" style="left: 395px; top: 51px; width: 3px; height: 4px; background: rgb(126,98,255); z-index: 10;"></div>
+  <div class="abs" style="left: 366px; top: 71px; width: 3px; height: 4px; background: rgb(126,98,255); z-index: 10;"></div>
+  <div class="abs" style="left: 381px; top: 71px; width: 3px; height: 4px; background: rgb(126,98,255); z-index: 10;"></div>
+  <div class="abs" style="left: 395px; top: 71px; width: 3px; height: 4px; background: rgb(126,98,255); z-index: 10;"></div>
+
+  <!-- ── College logo (x:126, y:46, w:188, h:188) ── -->
+  <img src="assets/index3/167_715.png" class="abs" style="left: 126px; top: 46px; width: 188px; height: 188px; z-index: 10; pointer-events: none;" />
+
+  <!-- ── College name texts ── -->
+  <!-- GAYATRI VIDYA PARISHAD -->
+  <div class="abs text-center" style="left: 0; top: 222px; width: 440px; font-size: 20px; font-weight: 600; color: #000000; z-index: 20; pointer-events: none;">GAYATRI VIDYA PARISHAD</div>
+  <!-- COLLEGE OF ENGINNERING -->
+  <div class="abs text-center" style="left: 0; top: 246px; width: 440px; font-size: 24px; font-weight: 800; color: #000000; z-index: 20; pointer-events: none;">COLLEGE OF ENGINNERING</div>
+
+  <!-- ── Separator decorator ── -->
+  <!-- Line centered -->
+  <div class="abs" style="left: 187px; top: 282px; width: 52px; height: 4px; background: rgb(123,97,255); border-radius: 2px; z-index: 20;"></div>
+  <!-- Dot next to line -->
+  <div class="abs" style="left: 250px; top: 281px; width: 6px; height: 6px; background: rgb(123,97,255); border-radius: 50%; z-index: 20;"></div>
+
+  <!-- ── LEARN · CONNECT · GROW ── -->
+  <div class="abs text-center" style="left: 0; top: 301px; width: 440px; font-size: 14px; font-weight: 300; color: #000000; z-index: 20; pointer-events: none;">LEARN · CONNECT · GROW</div>
+
+  <!-- ── Main illustrations ── -->
+  <!-- Purple Wave Overlay (z-index: 4, behind the building) -->
+  <img src="assets/index3/167_737.png" class="abs" style="left: 6px; top: 310px; width: 431px; height: 646px; z-index: 4; pointer-events: none; object-fit: cover;" />
+
+  <!-- Building Photo (z-index: 5, on top of wave) -->
+  <img src="assets/index3/167_777.png" class="abs" style="left: 2px; top: 287px; width: 440px; height: 352px; z-index: 5; pointer-events: none; object-fit: cover;" />
+
+  <!-- ── Tree left & right (z-index: 8, on top of wave) ── -->
+  <img src="assets/index3/167_740.png" class="abs" style="left: -26px; top: 787px; width: 135px; height: 203px; z-index: 8; pointer-events: none;" />
+  <img src="assets/index3/167_677.png" class="abs" style="left: 296px; top: 752px; width: 182px; height: 273px; z-index: 8; pointer-events: none;" />
+
+  <!-- ── Text on Wave (z-index: 20) ── -->
+  <div class="abs text-center" style="left: 0; top: 655px; width: 440px; font-size: 24px; font-weight: 600; color: #000000; z-index: 20; pointer-events: none;">Empowering Students</div>
+  <div class="abs text-center" style="left: 0; top: 689px; width: 440px; font-size: 21px; font-weight: 600; color: rgb(81,63,228); z-index: 20; pointer-events: none;">Across All Branches</div>
+
+  <!-- ── 2nd separator ── -->
+  <div class="abs" style="left: 180px; top: 736px; width: 52px; height: 4px; background: rgb(123,97,255); border-radius: 2px; z-index: 20;"></div>
+  <div class="abs" style="left: 243px; top: 735px; width: 6px; height: 6px; background: rgb(123,97,255); border-radius: 50%; z-index: 20;"></div>
+
+  <!-- ── Description text ── -->
+  <div class="abs text-center" style="left: 71px; top: 755px; width: 297px; font-size: 16px; font-weight: 400; color: #000000; z-index: 20; pointer-events: none; line-height: 1.5;">Choose your branch, access notes, resources, placements and connect with your college community.</div>
+
+  <!-- ── Get Started button (z-index: 25) ── -->
+  <a class="abs" id="btn-get-started" href="index2.html"
+    style="left: 97px; top: 849px; width: 247px; height: 67px; background: rgb(81,62,228); border-radius: 33px; display: flex; align-items: center; justify-content: center; gap: 12px; text-decoration: none; z-index: 25; transition: transform 0.2s, box-shadow 0.2s; box-shadow: 0 4px 16px rgba(81,62,228,0.4);">
+    <span style="font-size: 23px; font-weight: 500; color: #ffffff; font-family: 'Inter', sans-serif;">Get Started</span>
+    <svg width="18" height="18" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <polyline points="3 14 11 8 3 2" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </a>
+
+</div>
+<script>
+  const btn = document.getElementById('btn-get-started');
+  btn.addEventListener('mouseenter', () => {
+    btn.style.transform = 'translateY(-2px)';
+    btn.style.boxShadow = '0 8px 24px rgba(81,62,228,0.5)';
+  });
+  btn.addEventListener('mouseleave', () => {
+    btn.style.transform = '';
+    btn.style.boxShadow = '0 4px 16px rgba(81,62,228,0.4)';
+  });
+
+  function resize() {
+    const app = document.getElementById('app-container');
+    const scale = Math.min(window.innerWidth / 450, window.innerHeight / 970);
+    if (scale < 1) {
+      app.style.transform = `scale(${scale})`;
+      app.style.transformOrigin = 'top center';
+    } else {
+      app.style.transform = 'none';
+      app.style.marginTop = '10px';
+    }
+  }
+  window.addEventListener('resize', resize);
+  resize();
+</script>
+</body>
+</html>
